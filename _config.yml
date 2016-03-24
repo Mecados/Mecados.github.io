@@ -24,6 +24,7 @@ markdown: kramdown
 
 # Art Assets
 logo: images/Logo.png
+favicon: images/favicon.ico
 banner: images/Banner.png
 
 # Pages Lists
