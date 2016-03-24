@@ -1,14 +1,17 @@
 .site-header {
 	width: 100%;
 	height: 15%;
-	display: block;
+	display: inline-block;
+	background-color: white;
 
 	.site-logo {
-		float: left;
-		width: 15%;
-		margin: 0;
+		display: inherit;
 		padding: 2.5% 15%;
 		position: relative;
+		img {
+			width: 75%;
+			height: auto;
+		}
 	}
 
 	ul {
@@ -29,8 +32,9 @@
 
 				&.site-link {
 					display: inline;
-					color: black;
-					font-size: 3rem;
+					font-size: 2.5rem;
+					font-weight: 100;
+					font-family: 'Montserrat';
 				}
 			}
 		}
