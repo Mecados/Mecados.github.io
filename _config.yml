@@ -38,5 +38,3 @@ menu_pages:
 # SASS
 sass:
   style: compressed
-
-gems: ['compass']
