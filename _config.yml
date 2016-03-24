@@ -23,9 +23,9 @@ github_username:  jekyll
 markdown: kramdown
 
 # Art Assets
-logo: images/Logo.png
-favicon: images/favicon.ico
-banner: images/Banner.png
+logo: /images/Logo.png
+favicon: /images/favicon.ico
+banner: /images/Banner.png
 
 # Pages Lists
 menu_pages:
