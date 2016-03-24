@@ -11,13 +11,28 @@
 		position: relative;
 	}
 
-	.site-links {
-		float: right;
-		left: 0;
+	ul {
+		&.site-links {
+			top: 10%;
+			right: 10%;
+			position: absolute;
+			padding: 0;
+			list-style-type: none;
+			li {		
+				margin: 0;
+				padding: .75rem;
+				a {
+					text-decoration: none;
+					color: #777777;
+					padding: .75rem;	
+				}
 
-		.site-link {
-			color: black;
+				&.site-link {
+					display: inline;
+					color: black;
+					font-size: 3rem;
+				}
+			}
 		}
 	}
-
 }
