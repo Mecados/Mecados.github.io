@@ -1,6 +1,8 @@
 <header class="site-header">
   <div class="site-logo">
-    <img src="{{ site.logo  | prepend: site.baseurl }}">
+    <a href="{{ site.url | site.baseurl }}">
+      <img src="{{ site.logo  | prepend: site.baseurl }}">
+    </a>
   </div>
   <ul class="site-links">
     {% for page in site.menu_pages %}
