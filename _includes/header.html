@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="site-logo">
+    <img src="{{ site.logo  | prepend: site.baseurl }}">
+  </div>
+  <ul class="site-links">
+    {% for page in site.menu_pages %}
+    <li class="site-link">
+      <a href="{{ page[1] | prepend: site.baseurl }}">{{ page[0] | upcase }}</a>
+    </li>
+    {% endfor %}
+  </ul> 
+</header> 
